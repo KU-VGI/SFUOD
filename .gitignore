@@ -1,0 +1,28 @@
+*.pyc
+/__pycache__/
+*.out
+*.png
+*.pth
+# *.sh
+* copy.py
+*_by.py
+
+/**/*_bu.py
+/**/*_backup.py
+/engine_backup_recent.py
+
+/models
+
+
+# README.md
+/outputs/
+/exp_viz
+
+# DRU/configs/def-detr-base/city2bdd/*.sh
+# DRU/configs/def-detr-base/sim2city/*.sh
+*.sh
+
+!configs/def-detr-base/city2foggy/source_only_sfuod.sh
+!configs/def-detr-base/city2foggy/target_only_sfuod.sh
+!configs/def-detr-base/city2foggy/teaching_mask_sfuod.sh
+!configs/def-detr-base/city2foggy/teaching_standard_sfuod.sh

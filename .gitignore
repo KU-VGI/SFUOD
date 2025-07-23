@@ -10,9 +10,9 @@
 /**/*_bu.py
 /**/*_backup.py
 /engine_backup_recent.py
-
-/models
-
+/models/*_ours.py
+/models/criterion_opendet.py
+/models/*_upuk.py
 
 # README.md
 /outputs/

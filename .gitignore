@@ -37,3 +37,5 @@
 !configs/def-detr-base/city2foggy/teaching_standard_sfuod.sh
 
 annotations/*
+
+dynamic_update.csv 

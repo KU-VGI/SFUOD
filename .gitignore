@@ -3,6 +3,8 @@
 *.out
 *.png
 *.pth
+*.sh
+
 # *.sh
 * copy.py
 *_by.py
@@ -13,17 +15,25 @@
 /models/*_ours.py
 /models/criterion_opendet.py
 /models/*_upuk.py
+/models/ops/*
 
+!/models/ops/functions/
+!/models/ops/modules/
+!/models/ops/src/
+!/models/ops/make.sh
+!/models/ops/setup.py
+!/models/ops/test.py
 # README.md
 /outputs/
 /exp_viz
 
 # DRU/configs/def-detr-base/city2bdd/*.sh
 # DRU/configs/def-detr-base/sim2city/*.sh
-*.sh
+
 
 !configs/def-detr-base/city2foggy/source_only_sfuod.sh
 !configs/def-detr-base/city2foggy/target_only_sfuod.sh
 !configs/def-detr-base/city2foggy/teaching_mask_sfuod.sh
 !configs/def-detr-base/city2foggy/teaching_standard_sfuod.sh
-/annotations/*
+
+annotations/*
